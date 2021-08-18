@@ -1,0 +1,129 @@
+body{
+    font-family: 'segoe ui light'
+}
+*
+{
+    padding: 0;
+    margin:0
+}
+.clr{
+    clear: both;
+}
+.nav{
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 0;
+    overflow: auto;
+}
+.nav .nav-img{
+    float:left
+}
+.nav .nav-links{
+    float:right
+}
+.nav ul{
+   list-style-type: none;
+   overflow: auto;
+}
+.nav ul li{
+    float: left;
+    padding:10px 20px;
+}
+.nav  a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.nav .nav-img img{
+    width:80px;
+}
+
+.home{
+    height: 600px;
+    background-image: url(images/shutterstock_277750193.jpg);
+    background-size: 100% 100%
+}
+.caption{
+    color:#fff;
+    padding-top:100px;
+    text-align: center
+}
+.caption p{
+    margin:10px 0;
+    font-family: 'Dancing Script', cursive;
+    font-size:28px
+
+}
+
+.caption .btn1{
+    background-color: #c1ab84;
+    border:none;
+    padding:10px 15px;
+}
+.caption .btn2{
+    background-color: #fff;
+    border:none;
+    padding:10px 15px;
+}
+
+
+.discover{
+}
+
+.discover .chef-img{
+    width:40%;
+    float: left;
+}
+
+.discover .chef-img img{
+
+    width:100%;
+}
+.discover .chef-caption {
+    float:left;
+    width:60%;
+    padding-top:200px;
+    text-align: center
+
+
+}
+.discover .chef-caption p{
+    margin:20px 0
+}
+.discover .chef-caption button{
+    background-color: transparent;
+    border:2px solid #000;
+    padding:10px 20px
+}
+.discover .chef-caption span{
+    font-family: 'Dancing Script', cursive;
+    color: #f2ce08;
+}
+.meals{
+    background-color: gray;
+    margin-top: 50px
+}
+
+.meals .meal{
+    width:25%;
+    float: left;
+    text-align: center
+}
+.meals .meal img{
+    border-radius: 50%
+}
+.meals .meal .line{
+    height: 3px;
+    width:20%;
+    margin:5px auto;
+    background-color: #ccc;
+    
+}
+.meals .meal p{
+    padding:10px
+}
+.overlay{
+    height: 400px;
+    background-image: url(images/bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed
+}
